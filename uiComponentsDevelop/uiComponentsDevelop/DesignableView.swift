@@ -1,15 +1,15 @@
 //
-//  ScrollerView.swift
-//  Framework4Music
+//  DesignableView.swift
+//  uiComponentsDevelop
 //
-//  Created by 刘卫斌 on 15/12/19.
+//  Created by 刘卫斌 on 15/12/20.
 //  Copyright © 2015年 yufu. All rights reserved.
 //
 
 import UIKit
 
 @IBDesignable
-class ScrollerView: UIView {
+class DesignableView: UIView {
 
     
     // Our custom view from the XIB file
@@ -30,7 +30,7 @@ class ScrollerView: UIView {
     func loadViewFromNib() -> UIView {
         
         let bundle = NSBundle(forClass: self.dynamicType)
-        let nib = UINib(nibName: "ScrollerView", bundle: bundle)
+        let nib = UINib(nibName: "DesignableView", bundle: bundle)
         let view = nib.instantiateWithOwner(self, options: nil)[0] as! UIView
         
         return view
@@ -73,5 +73,5 @@ class ScrollerView: UIView {
             layer.borderColor = borderColor?.CGColor
         }
     }
-    
+
 }

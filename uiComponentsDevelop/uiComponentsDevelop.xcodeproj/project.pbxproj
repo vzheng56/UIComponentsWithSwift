@@ -12,6 +12,8 @@
 		F401F8661C26B3D4002AB074 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F401F8641C26B3D4002AB074 /* Main.storyboard */; };
 		F401F8681C26B3D4002AB074 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F401F8671C26B3D4002AB074 /* Assets.xcassets */; };
 		F401F86B1C26B3D4002AB074 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F401F8691C26B3D4002AB074 /* LaunchScreen.storyboard */; };
+		F401F8741C26B44D002AB074 /* ScrollerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F401F8721C26B44D002AB074 /* ScrollerView.swift */; };
+		F401F8751C26B44D002AB074 /* ScrollerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F401F8731C26B44D002AB074 /* ScrollerView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		F401F8671C26B3D4002AB074 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F401F86A1C26B3D4002AB074 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F401F86C1C26B3D4002AB074 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F401F8721C26B44D002AB074 /* ScrollerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollerView.swift; sourceTree = "<group>"; };
+		F401F8731C26B44D002AB074 /* ScrollerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ScrollerView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 		F401F85F1C26B3D4002AB074 /* uiComponentsDevelop */ = {
 			isa = PBXGroup;
 			children = (
+				F401F8721C26B44D002AB074 /* ScrollerView.swift */,
+				F401F8731C26B44D002AB074 /* ScrollerView.xib */,
 				F401F8601C26B3D4002AB074 /* AppDelegate.swift */,
 				F401F8621C26B3D4002AB074 /* ViewController.swift */,
 				F401F8641C26B3D4002AB074 /* Main.storyboard */,
@@ -124,6 +130,7 @@
 			files = (
 				F401F86B1C26B3D4002AB074 /* LaunchScreen.storyboard in Resources */,
 				F401F8681C26B3D4002AB074 /* Assets.xcassets in Resources */,
+				F401F8751C26B44D002AB074 /* ScrollerView.xib in Resources */,
 				F401F8661C26B3D4002AB074 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,6 +144,7 @@
 			files = (
 				F401F8631C26B3D4002AB074 /* ViewController.swift in Sources */,
 				F401F8611C26B3D4002AB074 /* AppDelegate.swift in Sources */,
+				F401F8741C26B44D002AB074 /* ScrollerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
